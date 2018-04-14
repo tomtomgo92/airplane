@@ -14,9 +14,9 @@ app.use('/', routes);
 /**
  * Init the database connection and start the server
  */
-MongoClient.connect("mongodb://heroku_8618v047:s1s95q848cfnk2gi07ksuri2ov@ds119018.mlab.com:19018/heroku_8618v047", (err, db) => {
+MongoClient.connect("mongodb://test:testt@ds157964.mlab.com:57964/heroku_g91p4qtv", (err, db) => {
     if (err) throw err;
 
     app.locals.db = db;
-    app.listen(process.env.PORT || 3000);
+    app.listen(process.env.PORT || 3001);
 });
