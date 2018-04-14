@@ -1,0 +1,16 @@
+{
+  "name": "airbase-api",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongodb": "^3.0.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.2"
+  }
+}
